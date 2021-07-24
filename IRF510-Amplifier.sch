@@ -182,40 +182,8 @@ F 3 "" H 4050 4750 50  0001 C CNN
 	1    4050 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Xenir:Resistor R54
-U 1 1 5F4BFB3E
-P 4250 3350
-F 0 "R54" H 4250 3425 28  0000 C CNN
-F 1 "10k" H 4250 3275 28  0000 C CNN
-F 2 "Xenir:Resistor 0805" H 4250 3250 50  0001 C CNN
-F 3 "" H 4250 3250 50  0001 C CNN
-	1    4250 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4050 3700 4050 3650
-$Comp
-L Xenir:Capacitor C52
-U 1 1 5F4C0F3A
-P 4300 3650
-F 0 "C52" H 4300 3775 28  0000 C CNN
-F 1 ".1uF" H 4300 3525 28  0000 C CNN
-F 2 "Xenir:Capacitor 0805" H 4300 3500 50  0001 C CNN
-F 3 "" H 4300 3500 50  0001 C CNN
-	1    4300 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 3650 4050 3650
-Connection ~ 4050 3650
 Wire Wire Line
 	4050 4100 4350 4100
-Wire Wire Line
-	4450 3650 4650 3650
-Wire Wire Line
-	4650 3650 4650 3900
-Connection ~ 4650 3650
 $Comp
 L Xenir:Capacitor C53
 U 1 1 5F4CB444
@@ -390,12 +358,6 @@ Wire Wire Line
 	10350 2750 10750 2750
 Connection ~ 10350 2750
 Wire Wire Line
-	4450 3350 4650 3350
-Wire Wire Line
-	4650 3350 4650 3650
-Wire Wire Line
-	4050 3350 4050 3650
-Wire Wire Line
 	4050 4350 4050 4100
 $Comp
 L Xenir:Capacitor C7
@@ -526,7 +488,6 @@ F 3 "" H 5050 2600 50  0001 C CNN
 	1    5050 2600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4650 3350
 $Comp
 L Device:R_POT RV1
 U 1 1 60FE76A2
@@ -1205,4 +1166,10 @@ F 3 "" H 6750 6000 50  0001 C CNN
 	1    6750 6000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4650 3350 4650 3900
+Wire Wire Line
+	4050 3350 4050 3700
+Text GLabel 4050 3350 1    50   Input ~ 0
+12V-On
 $EndSCHEMATC
