@@ -1,4 +1,4 @@
-update=7/15/2021 2:38:49 PM
+update=7/25/2021 1:28:51 PM
 version=1
 last_client=kicad
 [general]
@@ -241,3 +241,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/Users/Caliphax/Documents/kicad/IRF510-Amplifier-v2/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
