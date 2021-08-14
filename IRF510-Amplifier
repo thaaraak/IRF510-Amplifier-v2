@@ -1,0 +1,63 @@
+Source,C:\Users\Caliphax\Documents\kicad\IRF510-Amplifier-v2\IRF510-Amplifier.sch
+Kicad Rev,Eeschema (5.1.5)-3
+Generated Date,8/14/2021 7:24:59 AM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+C11,100uF,Xenir,Cap_Polarized
+C14,22uF,Xenir,Cap_Polarized
+U6,MCP1703A-2502_SOT223,Regulator_Linear,MCP1703A-2502_SOT223
+Q1,2N3904-SMD,Xenir,2N3904-SMD
+R6,62,Xenir,Resistor
+J1,Jack-DC,Connector,Jack-DC
+R52,24k,Xenir,Resistor
+R53,6.8k,Xenir,Resistor
+C53,.1uF,Xenir,Capacitor
+J2,BNC,Xenir,BNC
+C57,.1uF,Xenir,Capacitor
+Q2,2SC5706,Xenir,2SC5706
+L3,14T T37-6,Xenir,Inductor
+L4,18T T37-6,Xenir,Inductor
+C3,150p,Xenir,Capacitor
+C5,330p,Xenir,Capacitor
+C8,150p,Xenir,Capacitor
+C7,33p,Xenir,Capacitor
+C9,.1uF,Xenir,Capacitor
+R64,24k,Xenir,Resistor
+R65,6.8k,Xenir,Resistor
+J3,BNC,Xenir,BNC
+Q4,IRF510,Transistor_FET,IRF540N
+T1,T37-43 8T:4T,Xenir,T37_XFRM
+RV1,R_POT,Device,R_POT
+C1,.1uF,Xenir,Capacitor
+R1,33,Xenir,Resistor
+L1,T50-43 10T,Xenir,Inductor
+C2,.1uF,Xenir,Capacitor
+D1,D_Zener,Device,D_Zener
+R2,10,Xenir,Resistor
+RV2,R_POT,Device,R_POT
+C4,.1uF,Xenir,Capacitor
+Q5,IRFU9024,Xenir,IRFU9024
+R4,10k,Xenir,Resistor
+R7,10k,Xenir,Resistor
+Q3,BS170F,Transistor_FET,BS170F
+R5,1.5k,Xenir,Resistor
+R3,10k,Xenir,Resistor
+C6,.1uF,Xenir,Capacitor
+J4,Audio_Jack,Xenir,Audio_Jack
+R8,100,Xenir,Resistor
+R9,2.7k,Xenir,Resistor
+C10,.1uF,Xenir,Capacitor
+R10,62,Xenir,Resistor
+C12,.1uF,Xenir,Capacitor
+T2,T37-43 25T:8T,Xenir,T37_XFRM
+C13,.1uF,Xenir,Capacitor
+R11,18,Xenir,Resistor
+R12,18,Xenir,Resistor
+C15,.1uF,Xenir,Capacitor
+C16,22uF,Xenir,Cap_Polarized
+C17,.1uF,Xenir,Capacitor
